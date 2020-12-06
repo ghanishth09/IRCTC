@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IRCTC</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!--NAVIGATION BAR -->
+	<nav class="navbar navbar-light bg-light">
+  		<a class="navbar-brand" href="#">
+    		<img src="inr.png" width="70" height="70" alt="">
+  		</a>
+  		<div class="container ">
+  		<nav class="navbar navbar-expand-lg navbar-light bg-light text-center">
+			<a class="navbar-brand" href="#"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+					<a class="nav-item nav-link red" href="#">ALERTS</a>
+					<a class="nav-item nav-link" href="#">CONTACT US</a>
+					<a class="nav-item nav-link" href="#">REGISTER</a>
+					<a class="nav-item nav-link" href="#"><b style="color: red">LOGIN</b></a>
+					<a class="nav-item nav-link" href="#" style="display: inline-block;">AGENT LOGIN</a>
+					<a class="nav-item nav-link" href="#"><b style="color: darkblue">ASK DIKSHA</b></a>
+					<a class="nav-item nav-link" href="#">MORE</a>
+					<a class="nav-item nav-link" href="#">PROMOTIONS</a>
+				<br><br><br>
+					<a class="nav-item nav-link active" href="#"><b style="color: black">TRAINS <span class="sr-only">(current)</span></b></a>
+					<a class="nav-item nav-link" href="#"><b style="color: black">HOLIDAYS</b></a>
+					<a class="nav-item nav-link" href="#"><b style="color: black">FLIGHTS</b></a>
+					<a class="nav-item nav-link" href="#"><b style="color: black">LOYALTY</b></a>
+					<a class="nav-item nav-link" href="#"><b style="color: black">MEALS</b></a>
+					<a class="nav-item nav-link" href="#"><b style="color: black">EWALLET</b></a>
+					<a class="nav-item nav-link" href="#"><b style="color: black">PREMIUM PARTNER</b></a>		
+					<a class="nav-item nav-link" href="#"><b style="color: black">MORE</b></a>
+				</div>
+			</div>
+		</nav>
+	</div>
+	</nav>
+	<!-- Navigation Bar Ends -->
+
+
+<div class="textheading" style="float: right;text-align: center;margin-top:25%; margin-right: 20%"><label style="color: white; font-family: quicksand; font-size: 50px"><b>INDIAN RAILWAYS</b></label><br><span style="color: white; font-family: quicksand; font-size: 20px">Safety | </span><span style="color: white; font-family: quicksand; font-size: 20px">Security | </span><span style="color: white; font-family: quicksand; font-size: 20px">Punctuality</span></div>
+
+	<!-- Form starts -->
+	<form method="get">
+		<div class="container">
+			<div class=" text-center book">BOOK</div>
+			<div class=" text-center your-ticket">YOUR TICKET</div>
+			<img src="https://www.irctc.co.in/nget/assets/images/rail_icon.png" class="align-middle text-center" style="align-self: center;">
+			<div class="row pad">
+			  <input type="text" class="form-control " placeholder="From">
+			  
+			  <input type="text" class="form-control " placeholder="Toggle">
+			</div>
+			
+			<!-- Dropdown Menu Start -->
+  			<select class="dropbtn" id="inlineFormCustomSelectPref">
+    			<option selected>All Classes</option>
+    			<option value="1">General</option>
+    			<option value="2">AC First Class (1A)</option>
+    			<option value="3">Ac Second Class (2A)</option>
+    			<option value="4">Ac Third Class (3A)</option>
+  			</select>
+  			<!-- Dropdown Menu Ends -->
+
+  			<b><label for="birthdate" style="font-family: Quicksand">Date of Journey:</label></b><br>
+			<input type="date" name="birthdate" min="current" style="width: 100%" autocomplete><br><br>
+
+  			<!-- Checkboxes Start -->
+  			<div class="custom-control custom-checkbox my-1 mr-sm-2">
+			    <input type="checkbox" class="custom-control-input" id="customControlInline">
+			    <label class="custom-control-label" for="customControlInline">Flexible With Date</label>
+  			</div>
+  			<div class="custom-control custom-checkbox my-1 mr-sm-2">
+			    <input type="checkbox" class="custom-control-input" id="customControlInline2">
+			    <label class="custom-control-label" for="customControlInline2">Divyaang Concession</label>
+  			</div>
+  			<!-- Checkboxes End -->
+
+  			<button type="submit" class="btn btn-primary btn-block" style=" width: 100%">Find Trains</button>
+		</div>
+	</form>
+	<!-- Form ends -->
+
+	<!-- FOOTER STARTS HERE -->
+	<footer class="card-footer" style="position: absolute;">
+	    <div class="footer" id="dFooter" role="contentinfo"><div class="container"><div class="footer_div"><div class="row"><div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"><div class="footer_dv"><button class="btn_Tab"><span class="footer_headings">IRCTC Trains<!----><span class="fa fa-angle-down ng-star-inserted"></span><!----></span></button><!----><br><button class="btn_Tab"><span class="footer_headings">General Information<!----><span class="fa fa-angle-down ng-star-inserted"></span><!----></span></button><!----><br><button class="btn_Tab"><span class="footer_headings">Important Information<!----><span class="fa fa-angle-down ng-star-inserted"></span><!----></span></button><!----><br><button class="btn_Tab"><span class="footer_headings">Agents<!----><span class="fa fa-angle-down ng-star-inserted"></span><!----></span></button><!----><br><button class="btn_Tab"><span class="footer_headings">Enquiries<!----><span class="fa fa-angle-down ng-star-inserted"></span><!----></span></button><!----></div></div><div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"><div class="footer_dv"><button class="btn_Tab"><span class="footer_headings">How To<!----><span class="fa fa-angle-down ng-star-inserted"></span><!----></span></button><!----><br><button class="btn_Tab"><span class="footer_headings"> IRCTC Official App<!----><span class="fa fa-angle-down ng-star-inserted"></span><!----></span></button><!----><br><button class="btn_Tab"><span class="footer_headings">Advertise with us<!----><span class="fa fa-angle-down ng-star-inserted"></span><!----></span></button><!----><br><button class="btn_Tab"><span class="footer_headings">Refund Rules<!----><span class="fa fa-angle-down ng-star-inserted"></span><!----></span></button><!----><br><button class="btn_Tab"><span class="footer_headings">Divyangjan Facilities<!----><span class="fa fa-angle-down ng-star-inserted"></span><!----></span></button><!----><!----></div></div><div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"><div class="footer_dv"><button class="btn_Tab"><span class="footer_headings">IRCTC eWallet<!----><span class="fa fa-angle-down ng-star-inserted"></span><!----></span></button><!----><br><button class="btn_Tab"><span class="footer_headings"> IRCTC Loyalty Program<!----><span class="fa fa-angle-down ng-star-inserted"></span><!----></span></button><!----><br><button class="btn_Tab"><span class="footer_headings">About us<!----><span class="fa fa-angle-down ng-star-inserted"></span><!----></span></button><!----><br><button class="btn_Tab"><span class="footer_headings">IRCTC Zone<!----><span class="fa fa-angle-down ng-star-inserted"></span><!----></span></button><!----><br><button class="btn_Tab"><span class="footer_headings">MP/Ex-MP Ticket Booking<!----><span class="fa fa-angle-down ng-star-inserted"></span><!----></span></button><!----></div></div><div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"><div class="footer_dv"><span><button class="btn_Tab"><span class="footer_headings">For Newly Migrated Agents<!----><span class="fa fa-angle-down ng-star-inserted"></span><!----></span></button><!----></span><br><button class="btn_Tab"><span class="footer_headings">Mobile Zone<!----><span class="fa fa-angle-down ng-star-inserted"></span><!----></span></button><!----><br><button class="btn_Tab"><span class="footer_headings">Integration Policy<!----><span class="fa fa-angle-down ng-star-inserted"></span><!----></span></button><!----></div></div></div><div class="row clearfix"></div><hr style="border-top: 1px solid rgba(0,0,0,.1);"><div class="text-center" style="font-size: xx-large; margin-top: -2.0rem; margin-bottom: -10px;"></div></div></div></div>
+	    <div style="color: white; font-style: bold; text-align: center;"> <img src="copy.png" style="height: 25px;"> Copyright IRCTC 2020</div>
+	    
+	  </footer>
+	  <!-- FOOTER ENDS HERE -->
+</body>
+</html>
